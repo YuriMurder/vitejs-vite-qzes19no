@@ -9,38 +9,37 @@ const tracks = [
             "Starview Peak","Toad's Factory","Wario Stadium","Wario's Galleon","Whistlestop Summit"
             ];
 
-            // Map clean names → filenames in public/tracks
             const trackIcons = {
-              "Acorn Heights": "360px-MKWd_Acorn_Heights_Icon.png",
-                "Airship Fortress": "360px-MKWd_Airship_Fortress_Icon.png",
-                  "Boo Cinema": "360px-MKWd_Boo_Cinema_Icon.png",
-                    "Bowser's Castle": "360px-MKWd_Bowsers_Castle_Icon.png",
-                      "Cheep Cheep Falls": "360px-MKWd_Cheep_Cheep_Falls_Icon.png",
-                        "Choco Mountain": "360px-MKWd_Choco_Mountain_Icon.png",
-                          "Crown City": "360px-MKWd_Crown_City_Icon.png",
-                            "Dandelion Depths": "360px-MKWd_Dandelion_Depths_Icon.png",
-                              "Desert Hills": "360px-MKWd_Desert_Hills_Icon.png",
-                                "Dino Dino Jungle": "360px-MKWd_Dino_Dino_Jungle_Icon.png",
-                                  "DK Pass": "360px-MKWd_DK_Pass_Icon.png",
-                                    "DK Spaceport": "360px-MKWd_DK_Spaceport_Icon.png",
-                                      "Dry Bones Burnout": "360px-MKWd_Dry_Bones_Burnout_Icon.png",
-                                        "Faraway Oasis": "360px-MKWd_Faraway_Oasis_Icon.png",
-                                          "Great ? Block Ruins": "360px-MKWd_Great_Block_Ruins_Icon.png",
-                                            "Koopa Troopa Beach": "360px-MKWd_Koopa_Troopa_Beach_Icon.png",
-                                              "Mario Bros. Circuit": "360px-MKWd_Mario_Bros_Circuit_Icon.png",
-                                                "Mario Circuit": "360px-MKWd_Mario_Circuit_Icon.png",
-                                                  "Moo Moo Meadows": "360px-MKWd_Moo_Moo_Meadows_Icon.png",
-                                                    "Peach Beach": "360px-MKWd_Peach_Beach_Icon.png",
-                                                      "Peach Stadium": "360px-MKWd_Peach_Stadium_Icon.png",
-                                                        "Rainbow Road": "360px-MKWorld_Rainbow_Road_icon.png",
-                                                          "Salty Salty Speedway": "360px-MKWd_Salty_Salty_Speedway_Icon.png",
-                                                            "Shy Guy Bazaar": "360px-MKWd_Shy_Guy_Bazaar_Icon.png",
-                                                              "Sky-High Sundae": "360px-MKWd_Sky_High_Sundae_Icon.png",
-                                                                "Starview Peak": "360px-MKWd_Starview_Peak_Icon.png",
-                                                                  "Toad's Factory": "360px-MKWd_Toads_Factory_Icon.png",
-                                                                    "Wario Stadium": "360px-MKWd_Wario_Stadium_Icon.png",
-                                                                      "Wario's Galleon": "360px-MKWd_Warios_Galleon_Icon.png",
-                                                                        "Whistlestop Summit": "360px-MKWd_Whistlestop_Summit_Icon.png"
+              "Mario Bros. Circuit": "360px-MKWd_Mario_Bros_Circuit_Icon.png",
+                "Rainbow Road": "360px-MKWorld_Rainbow_Road_icon.png",
+                  "Peach Stadium": "360px-MKWorld_Peach_Stadium_icon_2.png",
+                    "Mario Circuit": "360px-MKWorld_Mario_Circuit_icon.png",
+                      "Acorn Heights": "360px-MKWorld_Acorn_Heights_Icon.png",
+                        "Bowser's Castle": "360px-MKWorld_Bowsers_Castle_icon.png",
+                          "Toad's Factory": "360px-MKWorld_Toads_Factory_icon.png",
+                            "Choco Mountain": "360px-MKWorld_Choco_Mountain_icon.png",
+                              "Moo Moo Meadows": "360px-MKWorld_Moo_Moo_Meadows_icon.png",
+                                "Dry Bones Burnout": "360px-MKWorld_Dry_Bones_Burnout_icon.png",
+                                  "Boo Cinema": "360px-MKWorld_Boo_Cinema_icon.png",
+                                    "Dandelion Depths": "360px-MKWorld_Dandelion_Depths_icon.png",
+                                      "Cheep Cheep Falls": "360px-MKWorld_Cheep_Cheep_Falls_icon.png",
+                                        "Great ? Block Ruins": "360px-MKWorld_Question_Ruins_icon.png",
+                                          "Dino Dino Jungle": "360px-Dino_Dino_Jungle_Mario_Kart_World.png",
+                                            "Salty Salty Speedway": "360px-Salty_Salty_Speedway_Mario_Kart_World.jpg",
+                                              "Peach Beach": "360px-Peach-Beach-MarioKartWorld.jpg",
+                                                "Faraway Oasis": "360px-MKWd_Faraway_Oasis_Icon.png",
+                                                  "Koopa Troopa Beach": "360px-MKWd_Koopa_Troopa_Beach_Icon.png",
+                                                    "Wario's Galleon": "360px-MKWd_Wario_Shipyard_Icon.png",
+                                                      "Sky-High Sundae": "360px-MKWd_Sky-High_Sundae_Icon.png",
+                                                        "Starview Peak": "360px-MKWd_Starview_Peak_Icon.png",
+                                                          "DK Pass": "360px-MKWd_DK_Pass_Icon.png",
+                                                            "Airship Fortress": "360px-MKWd_Airship_Fortress_Icon.png",
+                                                              "Wario Stadium": "360px-MKWd_Wario_Stadium_Icon.png",
+                                                                "Shy Guy Bazaar": "360px-MKWd_Shy_Guy_Bazaar_Icon.png",
+                                                                  "Desert Hills": "360px-MKWd_Desert_Hills_Icon.png",
+                                                                    "DK Spaceport": "360px-MKWd_DK_Spaceport_Icon.png",
+                                                                      "Whistlestop Summit": "360px-MKWd_Whistlestop_Summit_Icon.png",
+                                                                        "Crown City": "MKWd_Crown_City_Icon.png"
                                                                         };
 
                                                                         export default function MarioKartLogger() {
@@ -209,4 +208,5 @@ const tracks = [
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 </div>
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   );
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   }
+
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   
